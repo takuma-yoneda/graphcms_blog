@@ -4,10 +4,8 @@ import 'tailwindcss/tailwind.css';
 import '../styles/globals.scss';
 import '../styles/globals.css';  // <-- Is it necessary???
 
-import type { AppProps } from 'next/app'
 
-
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Component {...pageProps} />
